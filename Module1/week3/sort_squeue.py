@@ -25,8 +25,9 @@ class MyQueue:
             return
         return self.__queue[0]
 
+
 if __name__ == "__main__":
-    queue2 =  MyQueue(capacity=2)
+    queue2 = MyQueue(capacity=2)
 
     queue2.enqueue(1)
 
@@ -39,5 +40,7 @@ if __name__ == "__main__":
     print(queue2.dequeue())
 
     print(queue2.dequeue())
+
+    print(queue2.is_empty())
 
     print(queue2.is_empty())
